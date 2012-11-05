@@ -59,12 +59,24 @@
             <version>0.6.4</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.katlex</groupId>
+            <artifactId>launch-utils_2.9.2</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
             <id>javam2</id>
             <name>java m2</name>
             <url>http://download.java.net/maven/2/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>katlexrepo</id>
+            <name>katlex repo</name>
+            <url>http://katlex.github.com/maven2/release/</url>
             <layout>default</layout>
         </repository>
     </repositories>
